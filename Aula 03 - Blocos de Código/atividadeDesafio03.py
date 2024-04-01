@@ -2,9 +2,12 @@
 ##viagem em Km. Calcule o preço da passagem cobrando R$
 ## 0,50 por Km para viagens de até 200 Km e R$ 0,45 para viagens mais longas
 
-distancia1 = int(input("Digite a dsitancia de sua viagem em Km: "))
+distancia1 = int(input("Digite a distancia de sua viagem em Km: "))
 
+# Ate 200 km
 p1 = (0.50 * distancia1)
+
+#Acima de 200 km
 p2 = (0.45 * distancia1)
 
 

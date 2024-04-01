@@ -9,7 +9,7 @@ n2 = 80
 fmulta = (n1-80) * 7
 
 if n1 <= 80 :
-    print("Você é um motorista Consciente: " )
+    print(F"Você é um motorista Consciente: " )
     
 else: 
     print(f"Você esta acima do limite e foi multado em R$ {fmulta},00 : " )    

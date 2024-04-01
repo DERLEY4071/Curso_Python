@@ -5,16 +5,16 @@
 
 import random   
 
-numero1 = random.randint(0,5)
+numeroMaquina = random.randint(0,5)
 
-numero2 = int(input("Digite um numero de 0 a 5: "))
+numeroUsuario = int(input("Digite um numero de 0 a 5: "))
 
-if numero1 == numero2 : 
-    print("Você acertou o numero que a máquina escolheu" )
+if numeroMaquina == numeroUsuario : 
+    print(f"O número sorteado foi {numeroMaquina} parabéns foi acertou" )
     
 else:    
-    print("Você errou o numero que a máquina escolheu" )
-    print(f"A máquina escoulheu {numero1}" )
+    print(f"O número sorteado foi {numeroMaquina} então você errou , tente novamente " )
+   
 
 
 
