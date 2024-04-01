@@ -24,7 +24,8 @@ if num2 < num1 and num2 < num3 :
 if num3 < num1 and num3 < num2 :
      print(F"Menor numero é o {num3}")  
      
-       
+     
+## Elif ( É um Comparador de Condições , onde só existira quando tiver um " if "  ou um "else " )      
     
     
     

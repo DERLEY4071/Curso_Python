@@ -8,6 +8,8 @@ n1 = int(input("Digite a velocidade do carro: "))
 n2 = 80
 fmulta = (n1-80) * 7
 
+
+
 if n1 <= 80 :
     print(F"Você é um motorista Consciente: " )
     
