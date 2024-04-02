@@ -12,8 +12,6 @@ from datetime import *
 dataAtual = date.today()
 anoAtual = dataAtual.year
 
-print(anoAtual)
-
 
 anoNascimento = int(input("Digite o ano de nascimento do atleta: "))
     
