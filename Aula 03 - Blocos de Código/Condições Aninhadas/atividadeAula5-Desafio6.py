@@ -23,7 +23,7 @@ elif escolhaMaquina == "TESOURA" and escolhaUsuario == "PAPEL" :
      print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO MAQUINA VENCEU")
      
 elif escolhaMaquina == "PEDRA" and escolhaUsuario == "PAPEL" :
-     print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO USUARIO VENCEU")
+     print(f"A MAQUINA ESCOLHEU {escolhaUsuario}, PORTANTO USUARIO VENCEU")
      
 elif escolhaMaquina == "PAPEL" and escolhaUsuario == "TESOURA" :
      print(f"VOCÊ ESCOLHEU {escolhaMaquina}, PORTANTO USUARIO VENCEU")
