@@ -1,4 +1,4 @@
-#Desafio2
+#Desafio 2
 
 #Escreva um programa que leia dois números inteiros e compare- os, mostrando na tela uma mensagem:
 #O primeiro valor é maior

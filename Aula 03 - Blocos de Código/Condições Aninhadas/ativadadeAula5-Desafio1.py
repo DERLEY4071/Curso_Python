@@ -16,19 +16,19 @@ salario = float(input("Digite salario mensal: R$ " ))
 valorCasa = float(input("Digite valor da casa: R$ " ))
 
 #Tempo para pagar 
-anosPagar = float(input("Digite quantos anos para pagar : "))
+anosPagar = int(input("Digite quantos anos para pagar a casa: "))
 
 tempoApagar = anosPagar * 12
 
-percentualSalarial = salario *0.3 
+percentualSalarial = salario * 0.3 
 
 prestacaoMensal = valorCasa / tempoApagar
 
-if prestacaoMensal <= percentualSalarial :
-    print(f"Emprestimo Aprovado")
+if prestacaoMensal > percentualSalarial :
+    print(f"A prestação mensal foi de {prestacaoMensal:.2f}, e 30% do seu salario é {percentualSalarial}, protanto seu emprestimo foi negado")
     
 else :
-      print(f"Emprestimo Negado")
+    print(f"Parabéns seu emprestimo foi Aprovado")
       
 
 
