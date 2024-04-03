@@ -17,21 +17,21 @@ elif escolhaMaquina == "PEDRA" and escolhaUsuario == "TESOURA" :
     print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO MAQUINA VENCEU")
     
 elif escolhaMaquina == "PAPEL" and escolhaUsuario == "PEDRA" :
-    print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO USUARIO VENCEU")
+    print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO MAQUINA VENCEU")
     
 elif escolhaMaquina == "TESOURA" and escolhaUsuario == "PAPEL" :
      print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO MAQUINA VENCEU")
      
 elif escolhaMaquina == "PEDRA" and escolhaUsuario == "PAPEL" :
-     print(f"A MAQUINA ESCOLHEU {escolhaUsuario}, PORTANTO USUARIO VENCEU")
+     print(f"VOCÊ ESCOLHEU {escolhaUsuario}, PORTANTO USUARIO VENCEU")
      
 elif escolhaMaquina == "PAPEL" and escolhaUsuario == "TESOURA" :
-     print(f"VOCÊ ESCOLHEU {escolhaMaquina}, PORTANTO USUARIO VENCEU")
+     print(f"VOCÊ ESCOLHEU {escolhaUsuario}, PORTANTO USUARIO VENCEU")
      
 elif escolhaMaquina == "TESOURA" and escolhaUsuario == "PEDRA" :
-     print(f"A MAQUINA ESCOLHEU {escolhaMaquina}, PORTANTO USUARIO VENCEU")
+     print(f"VOCÊ ESCOLHEU {escolhaUsuario}, PORTANTO USUARIO VENCEU")
      
-#Else: 
+else: 
      print(f"A opção esta incorreta ")
      
 
