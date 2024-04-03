@@ -2,7 +2,6 @@
 
 from random import *
 
-
 maquina = usuario = 0
 
 

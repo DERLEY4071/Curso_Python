@@ -1,6 +1,6 @@
 numero = int(input("Digite um valor: "))
 
-resto = numero % 2 
+resto = numero % 2
 print(resto)
 
 if resto == 0:
