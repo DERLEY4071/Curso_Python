@@ -11,3 +11,5 @@ for n1 in range (1,7):
         #print(f"{n1}")
 else:
     print(f"A soma dos numeros pares é : {total}")
+    
+#alteraçao 
