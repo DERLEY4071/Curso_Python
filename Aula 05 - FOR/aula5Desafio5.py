@@ -12,4 +12,23 @@ for n1 in range (1,7):
 else:
     print(f"A soma dos numeros pares é : {total}")
     
-#alteraçao 
+    
+    
+
+
+'''Metodo de correção do exercicio em sala
+
+soma = 0
+
+for elemento in range (1,7):
+    numero = int(input("DIGITE UM VALOR"))
+
+resto = numero %2
+
+if resto == 0:
+    soma = soma + numero   
+    
+else: 
+    print(f"A soma dos valores pares digitados foi igual a {soma}")
+'''
+

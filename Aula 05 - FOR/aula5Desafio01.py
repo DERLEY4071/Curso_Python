@@ -8,6 +8,10 @@ import time
 for contagemRegressiva in range (10,-1,-1):
      print(contagemRegressiva)
      time.sleep(1)
+     
+else:
+     
+     print("Estouro de fogos e Artificios")
 
 
 
