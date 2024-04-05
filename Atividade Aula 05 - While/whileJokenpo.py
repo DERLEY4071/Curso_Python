@@ -69,7 +69,7 @@ try:
             print(f"Empate! - Comnputador: {dicionario[jogadaComputador]} e Jogador: {dicionario[jogador]}")
             print("_____________________________________________________________________________________________")
 
-    print(f"O valor a pagar ér R$ {valor:.2f}")
+    print(f"O valor a pagar é R$ {valor:.2f}")
             
 except:
     print("Entre com valores válidos")
