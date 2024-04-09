@@ -18,9 +18,13 @@ while True:
         contador = contador+1
         soma = soma + jogador
         
-print(f"A SOMA DOS NUMEROS DIGITADOS É: {soma} E O NUMERO DE TENTATIVAS FOI : {contador}")  
+print(f"A SOMA DOS NUMEROS DIGITADOS É: {soma:.0f} E O NUMERO DE TENTATIVAS FOI : {contador}")  
 
 
+ 
+    
+    
+              
 
 
 
