@@ -26,6 +26,7 @@ for contador in range(1,6):
     
     contador += 1    
 
-print(f"Segue a lista de números inteiros aleatórios: {tuple(tpNumeros)}")
+print(f"Número sorteados aleatóriamente : {tuple(tpNumeros)}")
 print(f"O maior número da lista é {numeroMaior}")
 print(f"O menor número da lista é {numeroMenor}")
+
