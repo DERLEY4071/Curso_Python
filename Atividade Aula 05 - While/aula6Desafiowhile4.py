@@ -29,7 +29,7 @@ while True:
         
     elif escolhaJogador == "I":
         print(f"Jogador escolheu IMPAR:")            
-        valorJogador = int(input("Entre com um nuemro inteiro IMPAR: "))
+        valorJogador = int(input("Entre com um numero inteiro IMPAR: "))
         print("Maquina joga com PAR:")
         
         while True:
