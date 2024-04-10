@@ -6,5 +6,17 @@
 from tabulate import tabulate
 
 produtos = [["Bala","0.30"],["suco","4.10"],["Sorvete","32.30"],["Paçoca","1.5"],["M&M","11.30"],["Milka","18.30"]]
+tpProdutos = tuple(produtos)
             
-print(tabulate(produtos, headers=["Produto", "Preço"]))
+print(tabulate(tpProdutos, headers=["Produto", "Preço"]))
+
+
+
+
+
+#Outra forma
+'''produtos = ("sofa", 800.00, "Geladeira", 700.00, "Fogão", 700,00 , "Micro Ondas", 900,00)
+tamnanho = len(produtos)
+
+for i range (0, tamnaho, 2) : 
+print(f"{produtos[in]:.<30}....R${produtos")'''
