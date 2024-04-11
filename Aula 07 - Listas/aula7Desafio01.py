@@ -8,7 +8,7 @@ valorMaior = valorMenor = posicaoMaior = posicaoMenor = 0
 
 
 
-for n in range(1,6):
+for n in range(0,5):
     valorNumero = int(input("Digite o valor numerico: ")) 
     listaValor.append(valorNumero)
     valorMaior = max(listaValor)
@@ -16,8 +16,8 @@ for n in range(1,6):
     posicaoMaior = listaValor.index(valorMaior)
     posicaoMenor = listaValor.index(valorMenor)
 
-print(f"O maior valor será :  {valorMaior}  ")
-print(f"O menor valor será :{valorMenor}  ")
+print(f"O maior valor será {valorMaior} e a sua posição: {listaValor.index(valorMaior)}ª ")
+print(f"O menor valor será {valorMenor} e a sua posição: {listaValor.index(valorMenor)}ª ")
     
     
 
