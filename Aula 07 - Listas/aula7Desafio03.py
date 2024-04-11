@@ -6,7 +6,7 @@
 lista = []
 
 for n in range (0,5):
-   escolhaNumero = int(input("Digite numero a escolher de 0 a 5:  "))
+   escolhaNumero = int(input("Digite numero a escolher :  "))
    
    if n == 0 or escolhaNumero > lista[-1]:
        lista.append(escolhaNumero)
@@ -25,7 +25,8 @@ for n in range (0,5):
            
 print(f"Os valores digitados em ordem crescentes foram : {lista}")            
             
-                        
+
+#posição
    
    
 

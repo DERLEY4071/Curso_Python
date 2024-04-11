@@ -20,7 +20,7 @@ print(f"B) Os últimos 4 colocados da tabela: {timeserieB[-4:]} ")
 print(f"C) Uma lista com os times em ordem alfabética:{time_alfabetica}")
 
 posicaoSantos = timeserieB.index("Santos")
-print(f"D) Em que posição na tabela está o time do Santos:{posicaoSantos +1}°")
+print(f"D) Em que posição na tabela está o time do Santos: {posicaoSantos +1}°")
 
 
 
