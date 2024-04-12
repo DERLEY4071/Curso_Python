@@ -4,7 +4,7 @@
 
 meuDicionario = {}
 
-meuDicionario['nome'] = str(input('Digite seu nome : '))
+meuDicionario['nome'] = str(input('Digite seu nome : ')).upper()
 meuDicionario['nota'] = float(input('Digite sua nota : '))
 
 print(meuDicionario)
@@ -18,10 +18,16 @@ elif meuDicionario["nota"]>=5 and meuDicionario ["nota"]<=7:
 else:
     meuDicionario["Situação"] = "Reprovado - Se Lascou"
     
-print(meuDicionario)
+# for k, v in meuDicionario.items() :
+#     print(f"O {k} é igual a : {v}")    
     
+print(meuDicionario)
+print(f"O nome é igual a {meuDicionario["nome"]}" )
+print(f"A Média é igual a {meuDicionario['nota']}")
+print(f"Sua Situação é {meuDicionario['situacao']}")
 
-
+   
+    
 
 #Exercicio resolvido
 
