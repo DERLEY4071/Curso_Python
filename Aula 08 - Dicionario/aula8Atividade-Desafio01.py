@@ -2,46 +2,50 @@
 
 #Faça um programa que leia o nome e média de um aluno, guardando também a situação em um dicionário. No final mostre o conteúdo da estrutura na tela.
 
-dcAluno = {}
-notaCorte = 7.0
+meuDicionario = {}
 
-nome = input("Digite seu nome: ")
-media = float(input("Entre com sua média: "))
+meuDicionario['nome'] = str(input('Digite seu nome : '))
+meuDicionario['nota'] = float(input('Digite sua nota : '))
 
-if(media >= notaCorte):
-    dcAluno["Nome"] = nome
-    dcAluno["Media"] = media
-    dcAluno["Situacao"] = "Aprovado"
+print(meuDicionario)
+
+if meuDicionario["nota"]>=7:
+    meuDicionario["Situação"] = "Aprovado"
+    
+elif meuDicionario["nota"]>=5 and meuDicionario ["nota"]<=7:
+    meuDicionario ["Situação"] = "Recuperação - Tem Salvação"
+     
 else:
-    dcAluno["Nome"] = nome
-    dcAluno["Media"] = media
-    dcAluno["Situacao"] = "Reprovado"
-   
-
-print(dcAluno)
-
-
+    meuDicionario["Situação"] = "Reprovado - Se Lascou"
+    
+print(meuDicionario)
+    
 
 
 
 #Exercicio resolvido
 
-# aluno = dict()
+# dcAluno = {}
+# notaCorte = 7.0
 
-# aluno['nome'] = input('Informe o nome do aluno(a): ').strip().capitalize()
-# aluno['media'] = float(input(f'Informe a média de {aluno["nome"]}: '))
+# nome = input("Digite seu nome: ")
+# media = float(input("Entre com sua média: "))
 
-# if aluno['media'] >= 7:
-#     aluno['situacao'] = 'Aprovado'
-# elif aluno['media'] >= 5:
-#     aluno['situacao'] = 'Recuperação'
+# if(media >= notaCorte):
+#     dcAluno["Nome"] = nome
+#     dcAluno["Media"] = media
+#     dcAluno["Situacao"] = "Aprovado"
 # else:
-#     aluno['situacao'] = 'Reprovado'
+#     dcAluno["Nome"] = nome
+#     dcAluno["Media"] = media
+#     dcAluno["Situacao"] = "Reprovado"
+   
 
-# print('-' * 35)
-# print(f'NOME: {aluno["nome"]}')
-# print(f'MÉDIA: {aluno["media"]}')
-# print(f'SITUAÇÃO: {aluno["situacao"]}')
+# print(dcAluno)
+
+
+
+
 
 
 
