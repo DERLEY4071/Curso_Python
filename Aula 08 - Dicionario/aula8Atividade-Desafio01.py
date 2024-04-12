@@ -2,31 +2,30 @@
 
 #Faça um programa que leia o nome e média de um aluno, guardando também a situação em um dicionário. No final mostre o conteúdo da estrutura na tela.
 
-meuDicionario = {}
+meuDicionario ={}
 
-meuDicionario['nome'] = str(input('Digite seu nome : '))
-meuDicionario['nota'] = float(input('Digite sua nota : '))
+meuDicionario['nome']= str(input("Digite seu nome: "))
+meuDicionario['nota']= float(input("Digite sua Média: "))
 
-print(meuDicionario)
 
-if meuDicionario["nota"]>=7:
-    meuDicionario["Situação"] = "Aprovado"
-    
-elif meuDicionario["nota"]>=5 and meuDicionario ["nota"]<=7:
-    meuDicionario ["Situação"] = "Recuperação - Tem Salvação"
-     
+if meuDicionario['nota']>=7:
+    meuDicionario['situacao']= "Aprovado"
+elif meuDicionario['nota']>=5  and meuDicionario['nota']<7:
+    meuDicionario['situacao']= "Recuperação! - Tem salvação!"
 else:
-    meuDicionario["Situação"] = "Reprovado - Se Lascou"
-    
-# for k, v in meuDicionario.items() :
-#     print(f"O {k} é igual a : {v}")    
-    
+    meuDicionario['situacao']= "Reprovado - Se lascou!"
+   
 print(meuDicionario)
-print(f"O nome é igual a {meuDicionario['nome']}")
-print(f"A Média é igual a {meuDicionario['nota']}")
-print(f"Sua Situação é {meuDicionario['situacao']}")
+
+# #for k, v in meuDicionario.items():
+#     print(f"O {k} é igual a {v}")
+   
+print(f"O Nome é igual a : {meuDicionario['nome']}")
+print(f"A Média é igual a : {meuDicionario['nota']}")
+print(f"Sua Situação é : {meuDicionario['situacao']}")
 
    
+ 
     
 
 #Exercicio resolvido
