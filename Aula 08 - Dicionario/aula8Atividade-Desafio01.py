@@ -4,7 +4,7 @@
 
 meuDicionario = {}
 
-meuDicionario['nome'] = str(input('Digite seu nome : ')).upper()
+meuDicionario['nome'] = str(input('Digite seu nome : '))
 meuDicionario['nota'] = float(input('Digite sua nota : '))
 
 print(meuDicionario)
@@ -22,7 +22,7 @@ else:
 #     print(f"O {k} é igual a : {v}")    
     
 print(meuDicionario)
-print(f"O nome é igual a {meuDicionario["nome"]}" )
+print(f"O nome é igual a {meuDicionario['nome']}")
 print(f"A Média é igual a {meuDicionario['nota']}")
 print(f"Sua Situação é {meuDicionario['situacao']}")
 
