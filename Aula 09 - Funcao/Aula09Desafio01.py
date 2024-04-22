@@ -11,7 +11,7 @@ def calculaArea(largura, comprimento):
 largura = int(input("Digite a largura desejada :  "))
 comprimento = int(input("Digite a comprimento desejada :  "))
 
-print(f"O valor da area do terreno igual a {calculaArea(largura, comprimento)} m² : ")
+print(f"O valor da area do terreno igual a : {calculaArea(largura, comprimento)} m²  ")
 
 
 

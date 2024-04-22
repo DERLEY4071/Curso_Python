@@ -21,6 +21,20 @@ def escreva(texto):
     print('-' * 32)
     
 escreva("Olá, mundo")
+
+
+# correçao Pedro
+
+# texto = input("Digite um texto :  ")
+
+# def escreva(texto)
+#     tamanhoTexto = len(texto)
+#     print("------------------------- ")
+    
+#     print(texto)
+#     print("--------------------------")
+    
+# escreva(texto)
     
     
     
