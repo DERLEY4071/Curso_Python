@@ -19,6 +19,10 @@ pos_y_circulo = circulo = 40
 pos_x_circulo = circulo = 40
 raio_circulo = 10
 
+#Definindo Fonte
+fonte = pygame.font.SysFont("arial", 20, True, False)
+pontos = 0
+
 # Criando a Janela
 tela = pygame.display.set_mode((largura, altura))
 # Definir titulo da Janela
@@ -30,6 +34,8 @@ relogio = pygame.time.Clock()
 while True:
     relogio.tick(25)
     tela.fill((0,0,0))
+    mensagem = f'pontos: {pontos}'
+    textoFormatado = fonte.render(mensagem, True,(255,255,255))
     
     #Colocando os enventos no Pygame
     for event in pygame.event.get():
@@ -68,6 +74,10 @@ while True:
     if retangulo.colliderect(circulo):
         pos_x_circulo = randint(40,600)
         pos_y_circulo = randint(50,430)
+        pontos += 1
+        
+    tela.blit(textoFormatado, (400,40))
+        
     
     
     # Atualizar o jogo a cada interação
